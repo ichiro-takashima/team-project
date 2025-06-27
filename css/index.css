@@ -1,9 +1,15 @@
 body {
   margin: 0;
   font-family: "Helvetica", "Arial", sans-serif;
-  background-color: #f0f8ff;
   color: #003366;
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+              url("https://www.photolibrary.jp/mhd1/img489/450-20160919220708.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 
 .container {
   display: flex;
