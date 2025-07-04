@@ -5,7 +5,12 @@ html, body {
   font-family: "Helvetica", "Arial", sans-serif;
   color: #003366;
 }
-
+.logo img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 body {
   min-height: 100vh;
   background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
